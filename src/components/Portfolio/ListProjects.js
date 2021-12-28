@@ -20,8 +20,9 @@ state = { projects: dataPortfolio };
                         {
                             projects.map(project => {
                                 return (
-                                    <Project 
-
+                                    <Project
+                                    key={project.id} 
+                                    project={project}
                                     />
                                 )
                             })
