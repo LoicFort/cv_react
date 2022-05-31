@@ -12,22 +12,24 @@ state = { projects: dataPortfolio };
 
         return (
             
-                <div className="portfolioContent">
-                    <ul className="radioDisplay">
+            <div className="portfolioContent">
+            <ul className="radioDisplay">
 
-                    </ul>
-                    <div className="projects">
-                        {
-                            projects.map(project => {
-                                return (
-                                    <Project 
+            </ul>
+            <div className="projects">
+                {
+                    projects.map(project => {
+                        return (
+                            <Project 
+                                key={project.id}
+                                project={project}
 
-                                    />
-                                )
-                            })
-                        }
-                    </div>
-                </div>
+                            />
+                        )
+                    })
+                }
+            </div>
+        </div>
             
         );
     }

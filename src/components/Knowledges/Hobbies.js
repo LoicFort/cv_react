@@ -17,7 +17,7 @@ const Hobbies = () => {
                 {
                     hobbies.map((hobbie) => {
                         return (
-                        <li>{hobbie.hobbie}</li>
+                        <li key={hobbie.id}>{hobbie.hobbie}</li>
                         )
                     })}
             </ul>

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home, .knowledges, .portfolio, .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 850px) {
+  .home, .knowledges, .portfolio, .contact {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .homeContent, .KnoledgesContent, .portfolioContent, .contactContent {
+    margin-left: 0 !important;
+  }
+}
+
+h1 {
+  color: #e8edea;
+  background-color: #020024;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.homeContent {
+  width: 80vw;
+  background-color: #e8edea;
+}
+
+.homeContent h2 {
+  font-size: 7rem;
+  text-align: center;
+  background-image: url("/img/background-image.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.pdf {
+  background-color: #020024;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.pdf a {
+  color: #e8edea;
+}
+
+.pdf a:hover {
+  color: orange;
+}
+/*# sourceMappingURL=home.css.map */

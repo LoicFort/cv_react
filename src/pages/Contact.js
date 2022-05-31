@@ -5,8 +5,7 @@ const Contact = () => {
     return (
         <div>
             <Navigation />
-            <div className="contact">
-                
+            <div className="contact">                
             </div>
         </div>
     );

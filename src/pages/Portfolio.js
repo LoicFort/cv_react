@@ -5,7 +5,7 @@ import ListProjects from '../components/Portfolio/ListProjects';
 const Portfolio = () => {
     return (
         
-        <div className="porfolio">
+        <div className="portfolio">
             <Navigation />
             <ListProjects />
         </div>

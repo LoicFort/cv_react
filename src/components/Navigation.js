@@ -4,19 +4,13 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
 
-        <div className="sidebar">
-            <div className="id">
-                <div className="idContent">
-                    <img src="./media/profil.jpg" alt="profil" />
-                    <h3>Loïc FORT</h3>
-                </div>
-            </div>
+        <div className="sidebar">           
 
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink  exact to="/" >
-                            <span>Accueil</span>
+                        <NavLink exact to="/" >
+                           Accueil
                         </NavLink>
                     </li>
                     <li>
@@ -26,15 +20,15 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink exact to="/Portfolio" >
-                             <span>Portfolio</span>
+                            <span>Portfolio</span>
                         </NavLink>
                     </li>
                     <li>
-                         <NavLink exact to="/Contact" >
+                        <NavLink exact to="/Contact" >
                             <span>Contact</span>
                         </NavLink>
-                    </li>               
-                    
+                    </li>
+
                 </ul>
             </div>
 

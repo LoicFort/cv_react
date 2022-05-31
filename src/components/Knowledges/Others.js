@@ -16,7 +16,7 @@ const Others = () => {
             otherSkills.map((skill) => {
                 
                 return (
-                    <li>{skill.skill}</li>
+                    <li key={skill.id}>{skill.skill}</li>
 
                 )
             })}</ul>

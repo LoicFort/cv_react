@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home, .knowledges, .portfolio, .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 850px) {
+  .home, .knowledges, .portfolio, .contact {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .homeContent, .KnoledgesContent, .portfolioContent, .contactContent {
+    margin-left: 0 !important;
+  }
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #e8edea;
+  width: 80vw;
+  height: 100vh;
+}
+
+.project {
+  width: 20vw;
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: #020024;
+  padding: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.project h3 {
+  border-radius: 5px 5px 0 0;
+}
+
+.project .languages {
+  padding-left: 1rem;
+  color: #e8edea;
+}
+
+.project .thumbnail {
+  width: 100%;
+  background-size: cover;
+  border-radius: 0 0 5px 5px;
+}
+
+.project:hover {
+  background-color: black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=portfolio.css.map */
